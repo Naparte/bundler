@@ -2,5 +2,13 @@
   "name": "bundler",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/traverse": "^7.23.5",
+    "babylon": "^6.18.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5"
+  }
 }
